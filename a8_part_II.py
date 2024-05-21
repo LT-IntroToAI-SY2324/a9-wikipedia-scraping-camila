@@ -38,7 +38,7 @@ def get_birth_date(name: str) -> str:
     """Gets birth date of the given person
 
     Args:
-        name - name of the person
+        name - name of the person 
 
     Returns:
         birth date of the given person
@@ -82,7 +82,7 @@ if __name__ == "__main__":
     print("\n<<<<<<<<<<<<<< Testing Birth Dates >>>>>>>>>>>>>>")
     # # should be 1906-12-09
     print(format_birth(get_birth_date("Grace Hopper"), "Grace Hopper"))
-    # # should be 1912-06-23
+    # # should be 1912-06-23 .
     # print(format_birth(get_birth_date("Alan Turing"), "Alan Turing"))
     # # should be 1955-06-08
     # print(format_birth(get_birth_date("Tim Berners-Lee"), "Tim Berners-Lee"))
@@ -96,5 +96,5 @@ if __name__ == "__main__":
     assert get_birth_date("Tim Berners-Lee") == "1955-06-08", "Incorrect birth date for Tim Berners-Lee"
     assert get_birth_date("Anita Borg") == "1949-01-17", "Incorrect birth date for Anita Borg"
     print('\n<<<< Birth date tests passed >>>>')
-
+    print("result")
     print('\n<<<< All tests passed! >>>>')
